@@ -21,7 +21,6 @@ public class MainActivity extends BaseActivity {
         setTitle("中间");
     }
 
-
     @Override
     public void onClick(View view) {
         switch (view.getId()){
