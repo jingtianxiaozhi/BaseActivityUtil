@@ -73,4 +73,6 @@
                 android:visibility="gone" />
         </RelativeLayout>
     </RelativeLayout>
+    <include layout="@layout/public_line" />
+
 </LinearLayout>

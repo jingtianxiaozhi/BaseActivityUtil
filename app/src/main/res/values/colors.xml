@@ -150,6 +150,11 @@
     <color name="navy">#000080</color> <!-- 海军色 -->
     <color name="black">#000000</color> <!-- 黑色 -->
 
+    <!--点击效果-->
     <color name="press_front">#FFFFFF</color>
     <color name="press_back">#D9D9D9</color>
+
+    <!--分割线颜色-->
+    <color name="line_color">#D9D9D9</color>
+
 </resources>
