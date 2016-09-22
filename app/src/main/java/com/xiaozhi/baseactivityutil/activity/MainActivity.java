@@ -19,6 +19,7 @@ public class MainActivity extends BaseActivity {
         setLeft("左边", this);
         setRight("右边",this);
         setTitle("中间");
+        setPublicTitleVisiable(false);
     }
 
     @Override

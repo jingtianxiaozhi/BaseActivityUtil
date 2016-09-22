@@ -39,6 +39,10 @@ abstract class BaseActivity extends AppCompatActivity implements View.OnClickLis
         LayoutInflater.from(this).inflate(R.layout.public_title, contentLayout, true);
     }
 
+    public void setPublicTitleVisiable(boolean isVisiable){
+        findViewById(R.id.layout_public_title).setVisibility(isVisiable ? View.VISIBLE : View.GONE);
+    }
+
     public abstract void initTitle();
 
     public void setTitle(String titleText) {
